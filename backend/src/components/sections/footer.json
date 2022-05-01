@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_footers",
+  "info": {
+    "displayName": "footer",
+    "icon": "boxes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "social_media": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::social-media.social-media"
+    }
+  }
+}
