@@ -21,13 +21,15 @@ const StyledBanner = styled.nav`
   .callToAction {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     max-width: 400px;
     gap: 40px;
   }
 
   .faceScan {
-    position: absolute;
-    bottom: -30px;
+    position: relative;
+    bottom: -50px;
     height: 100%;
     right: 40px;
 
@@ -43,7 +45,7 @@ const StyledBanner = styled.nav`
       position: absolute;
       width: 85px;
       right: 85px;
-      top: 150px;
+      top: 140px;
     }
   }
 `
